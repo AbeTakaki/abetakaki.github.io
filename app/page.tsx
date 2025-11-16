@@ -2,6 +2,7 @@ import Hero from './components/Hero';
 import Career from './components/Career';
 import Skills from './components/Skills';
 import Articles from './components/Articles';
+import Qualifications from './components/Qualifications';
 // ... 他のセクションもインポート
 
 export default function Home() {
@@ -23,6 +24,9 @@ export default function Home() {
       
       {/* 4. 記事セクション */}
       <Articles />
+
+      {/* 5. 資格セクション */}
+      <Qualifications />
 
       {/* ... 他のセクションも同様に配置 */}
       
