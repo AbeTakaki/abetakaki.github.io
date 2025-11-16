@@ -1,7 +1,7 @@
 import Hero from './components/Hero';
 import Career from './components/Career';
 import Skills from './components/Skills';
-import Articles from './components/Articles';
+// import Articles from './components/Articles';
 import Qualifications from './components/Qualifications';
 // ... 他のセクションもインポート
 
@@ -23,7 +23,7 @@ export default function Home() {
       <Skills />
       
       {/* 4. 記事セクション */}
-      <Articles />
+      {/* <Articles /> */}
 
       {/* 5. 資格セクション */}
       <Qualifications />
