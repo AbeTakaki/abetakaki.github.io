@@ -16,11 +16,17 @@ export default function Header() {
           <Link href="/" className="font-medium text-gray-500 hover:text-gray-900" aria-label="Homeページに移動">
               Home
           </Link>
-          <Link href="https://www.todo.udemystudyaw.com/">
+          <Link href="/portfolios">
+            <div className="ml-4 font-medium text-gray-500 hover:text-gray-900 sm:ml-12" aria-label="Portfoliosページに移動">
+              Portfolios
+            </div>
+          </Link>
+          
+          {/* <Link href="https://www.todo.udemystudyaw.com/">
             <div className="ml-4 font-medium text-gray-500 hover:text-gray-900 sm:ml-12" aria-label="Todoページに移動">
               Todo
             </div>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </header>
