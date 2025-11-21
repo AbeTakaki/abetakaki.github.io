@@ -16,7 +16,7 @@ export const portfolioProjects: PortfolioProject[] = [
     title: 'TODO管理アプリ',
     description: 'Reactの学習に作成した簡易Todoアプリ。ローカルストレージにデータを保存。AWS Amplify にて公開している。ベーシック認証は takaki / checkcheck でログイン可能',
     url: 'https://www.todo.udemystudyaw.com/',
-    technology: ['Next.js', 'AWS'],
+    technology: ['React', 'AWS'],
   },
   // 今後増えるポートフォリオは、この配列に追加する
 ];
