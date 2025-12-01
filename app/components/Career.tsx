@@ -17,7 +17,7 @@ export default function Career() {
                 <circle cx="6" cy="6" r="6" fill="currentColor"></circle>
                 <circle cx="6" cy="6" r="11" fill="none" stroke='currentColor' strokeWidth="2"></circle>
                 <path d="M 6 18 V 500" fill="none" strokeWidth="2" stroke="currentColor" className="text-gray-200"></path>
-              </svg>2025.06
+              </svg>2025.07
             </time>
             <p className="text-gray-500 md:col-start-3 md:col-span-6 xl:col-span-7 ml-9 md:ml-0">
               AWS 専業のシステムインテグレーターで、主に大手企業向けのクラウドインフラ構築・運用支援を担当。<br />
