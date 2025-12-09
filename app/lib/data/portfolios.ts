@@ -16,10 +16,17 @@ export const portfolioProjects: PortfolioProject[] = [
   },
   {
     title: 'TODO管理アプリ',
-    description: 'Reactの学習に作成した簡易Todoアプリ。ローカルストレージにデータを保存。AWS Amplify にて公開している。ベーシック認証は takaki / checkcheck でログイン可能',
+    description: 'Reactの学習に作成した簡易Todoアプリ。ローカルストレージにデータを保存。AWS Amplify にて公開している。ベーシック認証は takaki / checkcheck でログイン可能。',
     url: 'https://www.todo.udemystudyaw.com/',
     githubUrl:'https://github.com/AbeTakaki/react-todo-app',
     technology: ['React', 'AWS'],
   },
   // 今後増えるポートフォリオは、この配列に追加する
+  {
+    title: 'SNS-APP',
+    description: 'Laravel 12 + Terrafrom + Github Actions を用いた CI/CD など技術のキャッチアップのために作成。今後フロントエンドは Next.js にて実装予定。※節約のために普段は稼働していないです。',
+    url: 'https://abeportfolio.click/',
+    githubUrl:'https://github.com/AbeTakaki/SNS-APP',
+    technology: ['Laravel', 'AWS', 'AWS ECS Fargate', 'GitHub', 'Github Actions'],
+  },
 ];
