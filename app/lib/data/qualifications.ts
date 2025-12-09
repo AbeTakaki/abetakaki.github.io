@@ -13,15 +13,15 @@ export const qualifications: Qualification[] = [
     date: '2024/10',
   },
   {
-    title: 'AWS 認定ソリューションアーキテクト – アソシエイト',
+    title: 'AWS認定 Solutions Architect - Associate',
     date: '2025/02',
   },
   {
-    title: 'AWS 認定 sysops アドミニストレーター – アソシエイト',
+    title: 'AWS認定 SysOps Administrator - Associate',
     date: '2025/07',
   },
     {
-    title: 'AWS 認定 Developer – アソシエイト',
+    title: 'AWS認定 Developer - Associate',
     date: '2025/12',
   },
 ];
