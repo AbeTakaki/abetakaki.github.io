@@ -29,4 +29,11 @@ export const portfolioProjects: PortfolioProject[] = [
     githubUrl:'https://github.com/AbeTakaki/SNS-APP',
     technology: ['Laravel', 'AWS', 'AWS ECS Fargate', 'GitHub', 'Github Actions'],
   },
+    {
+    title: 'ssrmb',
+    description: 'Go 言語で作成した自作 CLI。スクリーンショットフォルダ内に yyyy-mm-dd フォルダを作成し画像を整理する。-m 及び -d のオプションで指定日より前のフォルダを削除する。',
+    url: 'https://github.com/AbeTakaki/ssrmb/releases',
+    githubUrl:'https://github.com/AbeTakaki/ssrmb',
+    technology: ['Go'],
+  },
 ];
